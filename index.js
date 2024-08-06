@@ -29,9 +29,9 @@ app.post("/create_preference", async (req, res) => {
                 currency_id: "UYU",
             })),
             back_urls: {
-                success: "https://www.youtube.com",
-                failure: "https://www.youtube.com",
-                pending: "https://www.youtube.com",
+                success: "https://mercado-pago-front-lac.vercel.app/",
+                failure: "https://mercado-pago-front-lac.vercel.app/",
+                pending: "https://mercado-pago-front-lac.vercel.app/",
             },
             auto_return: "approved",
         };
